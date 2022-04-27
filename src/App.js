@@ -1,8 +1,16 @@
+import Main from "./components/main/Main";
 import Navigation from "./components/nav/Navigation";
 
 function App() {
   return (
-    <Navigation/>
+    <>
+        <Navigation/>
+        <Main/>
+        <div className="h-80">
+
+        </div>
+    </>
+ 
   );
 }
 

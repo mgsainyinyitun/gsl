@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.background-image{
+    background-image: url('https://149369349.v2.pressablecdn.com/wp-content/uploads/2012/10/twitter-cover.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
