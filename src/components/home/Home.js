@@ -9,8 +9,8 @@ class Home extends React.Component{
         return(
             <>
                 <Cover/>
-                <div className="flex justify-center">
-                    <div className="w-4/6 border-2">
+                <div className="flex justify-center text-white">
+                    <div className="w-3/6">
                         <Customer/>
                         <Services/>
                         <ContactForm />

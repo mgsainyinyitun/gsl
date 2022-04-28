@@ -6,14 +6,14 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <nav class="bg-indigo-800 shadow-lg rounded-b-2xl absolute top-0 left-0 right-0">
-        <div className="bg-indigo-800 shadow-lg rounded-b-2xl hover:translate-y-6 transition delay-100 duration-300">
+      <nav class="bg-gray-800 shadow-lg rounded-b-2xl absolute top-0 left-0 right-0 h-16">
+        <div className="bg-gray-800 shadow-lg rounded-b-2xl hover:translate-y-6 transition delay-100 duration-300">
           <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
               <div class="flex space-x-7">
                 <div>
-                  <a href="#" class="flex items-center py-4 px-2">
-                    <img src="https://www.one77fs.co.uk/wp-content/uploads/2018/06/Cool-Example-Company-Logo-33-For-Logo-Inspiration-with-Example-Company-Logo-e1504694443294.png" alt="Logo" class="h-8 mr-2" />
+                  <a href="#" className="flex items-center py-4 px-2">
+                    <img className="rounded-3xl" src="https://www.one77fs.co.uk/wp-content/uploads/2018/06/Cool-Example-Company-Logo-33-For-Logo-Inspiration-with-Example-Company-Logo-e1504694443294.png" alt="Logo" class="h-8 mr-2" />
                   </a>
                 </div>
                 {/* Primary Menu */}
