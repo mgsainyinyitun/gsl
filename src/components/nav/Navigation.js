@@ -6,8 +6,8 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <nav class="bg-gray-800 shadow-lg rounded-b-2xl absolute top-0 left-0 right-0 h-16">
-        <div className="bg-gray-800 shadow-lg rounded-b-2xl hover:translate-y-6 transition delay-100 duration-300">
+      <nav class="color-green shadow-lg rounded-b-2xl absolute top-0 left-0 right-0 h-16">
+        <div className="color-green shadow-lg rounded-b-2xl hover:translate-y-10 transition delay-100 duration-300">
           <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
               <div class="flex space-x-7">
@@ -20,7 +20,7 @@ class Navigation extends React.Component {
                 <div class="hidden md:flex items-center space-x-1">
                   <a
                     href=""
-                    class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold "
+                    class="py-4 px-2 color-text-red border-b-4 border-green-500 font-semibold "
                   >Home</a
                   >
                   <a

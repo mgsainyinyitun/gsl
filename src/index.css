@@ -11,3 +11,35 @@
     height: 800px;
 }
 
+
+.color-green{
+    background: #44803F;
+}
+.color-blue{
+    background: #146152;
+}
+.color-red{
+    background: #FF5A33;
+}
+.color-yellow{
+    background: #FFEC5C;
+}
+.color-light-green{
+    background: #B4CF66;
+}
+
+.color-text-green{
+    color: #44803F;
+}
+.color-text-blue{
+    color: #146152;
+}
+.color-text-red{
+    color: #FF5A33;
+}
+.color-text-yellow{
+    color: #FFEC5C;
+}
+.color-text-light-green{
+    color: #B4CF66;
+}
