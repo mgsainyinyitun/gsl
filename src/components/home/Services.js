@@ -1,6 +1,7 @@
 import React from 'react';
-import { Collapse } from 'antd';
-
+import { Card, Collapse } from 'antd';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCamera,faCameraRetro } from '@fortawesome/free-solid-svg-icons'
 const { Panel } = Collapse;
 
 function callback(key) {
@@ -18,24 +19,17 @@ class Services extends React.Component{
     render(){
         return(
           <div className='w-full flex flex-col items-center'>
-             <div className='w-full p-2 m-5 bg-black '>
+             <div className='w-full p-2 m-5 bg-gray-800 '>
                 <span className='text-3xl uppercase text-white font-extrabold'>services</span>
             </div>
             <div className='w-4/6'>
-              <Collapse  defaultActiveKey={['1']} onChange={callback}>
-                  <Panel header="This is panel header with arrow icon" key="1">
-                  <p>{text}</p>
-                  </Panel>
-                  <Panel header="This is panel header with no arrow icon" key="2">
-                  <p>{text}</p>
-                  </Panel>
-                  <Panel header="This is panel header with no arrow icon" key="2">
-                  <p>{text}</p>
-                  </Panel>
-                  <Panel header="This is panel header with no arrow icon" key="2">
-                  <p>{text}</p>
-                  </Panel>
-              </Collapse>
+
+              <Card
+                icon={faCameraRetro}
+                title = 'SERVICES NAME'
+                info = 'Aliquam gravida nisi consequat nulla sagittis luctus. Aenean vel cursus nisi. Donec quis erat'
+              />
+
             </div>
           </div>
         )

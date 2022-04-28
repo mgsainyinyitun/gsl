@@ -6,11 +6,11 @@ class Customer extends React.Component{
         return(
             <div className='mt-10 flex flex-col items-center'>
                 <div className='flex flex-col items-center mb-10 mt-10'>
-                    <h1 className='text-3xl font-light text-gray-800'>EXPERIENCE YOU CAN TRUST</h1>
-                    <h3 className='text-gray-800'>OVER 50 YEARS COMBINED OF EXPERT SECURITY IT & TELECOME SERVICES </h3>
+                    <h1 className='text-3xl font-light text-white'>EXPERIENCE YOU CAN TRUST</h1>
+                    <h3 className='text-white'>OVER 50 YEARS COMBINED OF EXPERT SECURITY IT & TELECOME SERVICES </h3>
                 </div>
 
-                <div className='w-full p-2 m-5 bg-black '>
+                <div className='w-full p-2 m-5 bg-gray-800 '>
                     <span className='text-3xl uppercase text-white font-extrabold'>Our Customers</span>
                 </div>
                 

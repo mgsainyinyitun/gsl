@@ -11,16 +11,12 @@ class ContactForm extends React.Component{
                     <h1 className='text-3xl'>Contact Form</h1>
                     <form>
                         <div>
-                            <span className='text-3xl'>Subject</span>
                             <input className='border-2 h-10 rounded-3xl border-teal-500' type={'text'} />
                         </div>
                         <div>
-                            <span className='text-3xl'>Subject</span>
                             <input className='border-2 h-10 rounded-3xl border-teal-500' type={'text'} />
                         </div>
                         <div>
-                            <span className='text-lg'>Subject</span>
-                        
                             <textarea className='border-2 rounded-3x border-teal-500 h-36'>
                                 abcd
                             </textarea>
