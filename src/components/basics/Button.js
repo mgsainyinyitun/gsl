@@ -5,7 +5,7 @@ class Button extends React.Component{
 
     render(){
         return(
-            <button className='border-2 border-green-700 p-3 rounded-3xl w-40 mr-5'>
+            <button className='bg-gray-700 border-2 border-gray-700 p-3 rounded-3xl w-40 mr-5'>
                 {this.props.text}
             </button>
         )

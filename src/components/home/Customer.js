@@ -1,3 +1,5 @@
+import { faBatteryCar, faEarth, faEarthAfrica } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 
@@ -10,23 +12,23 @@ class Customer extends React.Component{
                     <h3 className='text-white'>OVER 50 YEARS COMBINED OF EXPERT SECURITY IT & TELECOME SERVICES </h3>
                 </div>
 
-                <div className='w-full p-2 m-5 bg-gray-800 '>
+                <div className='w-full p-2 m-5 bg-gray-800 rounded-b-lg'>
                     <span className='text-3xl uppercase text-white font-extrabold'>Our Customers</span>
                 </div>
                 
                 <div className='flex justify-center mt-10 mb-10'>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
+                    <FontAwesomeIcon icon={faBatteryCar} className='text-9xl m-2 mr-14' />
+                    <FontAwesomeIcon icon={faEarthAfrica} className='text-9xl m-2 mr-14' />
+                    <FontAwesomeIcon icon={faBatteryCar} className='text-9xl m-2' />
                 </div>
                 <div className='flex  justify-center mt-10 mb-10 w-4/5'>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
+                    <FontAwesomeIcon icon={faBatteryCar} className='text-9xl m-2 mr-14' />
+                    <FontAwesomeIcon icon={faEarth} className='text-9xl m-2' />
                 </div>
                 <div className='flex justify-center mt-10 mb-10 w-4/5'>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
-                    <img className='rounded-full m-5' width={'20%'} src='https://www.pngitem.com/pimgs/m/247-2477379_transparent-background-cartoon-house-png-png-download.png'/>
+                    <FontAwesomeIcon icon={faBatteryCar} className='text-9xl m-2 mr-14' />
+                    <FontAwesomeIcon icon={faEarthAfrica} className='text-9xl m-2 mr-14' />
+                    <FontAwesomeIcon icon={faBatteryCar} className='text-9xl m-2' />
                 </div>
 
                 <h3 className='text-lg'>Any many more ...</h3>

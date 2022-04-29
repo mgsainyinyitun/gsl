@@ -18,26 +18,26 @@ class Navigation extends React.Component {
                   </a>
                 </div>
                 {/* Primary Menu */}
-                <div class="hidden md:flex items-center space-x-1">
+                <div class="hidden md:flex items-center space-x-1 text-lg">
                   <a
                     href=""
                     class="py-4 px-2 color-text-red border-b-4 border-green-500 font-semibold "
-                  >Home</a
+                  >HOME</a
                   >
                   <a
                     href=""
                     class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                  >Services</a
+                  >SERVICES</a
                   >
                   <a
                     href=""
                     class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                  >About</a
+                  >ABOUT US</a
                   >
                   <a
                     href=""
                     class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                  >Contact Us</a
+                  >CONTACT US</a
                   >
                 </div>
 

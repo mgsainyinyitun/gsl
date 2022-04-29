@@ -1,8 +1,7 @@
 import React from 'react';
-import { Card, Collapse } from 'antd';
+import Card from '../basics/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCamera,faCameraRetro } from '@fortawesome/free-solid-svg-icons'
-const { Panel } = Collapse;
 
 function callback(key) {
   console.log(key);
@@ -23,6 +22,19 @@ class Services extends React.Component{
                 <span className='text-3xl uppercase text-white font-extrabold'>services</span>
             </div>
             <div className='w-4/6'>
+
+              <Card
+                icon={faCameraRetro}
+                title = 'SERVICES NAME'
+                info = 'Aliquam gravida nisi consequat nulla sagittis luctus. Aenean vel cursus nisi. Donec quis erat'
+                detail = 'Consequat Lorem pariatur cillum fugiat enim anim sunt elit culpa enim tempor anim enim commodo.'
+              />
+
+              <Card
+                icon={faCameraRetro}
+                title = 'SERVICES NAME'
+                info = 'Aliquam gravida nisi consequat nulla sagittis luctus. Aenean vel cursus nisi. Donec quis erat'
+              />
 
               <Card
                 icon={faCameraRetro}
