@@ -10,8 +10,8 @@ function Navigation() {
   const location = useLocation().pathname;
 
     return (
-      <nav class="bg-gray-800 shadow-lg rounded-b-2xl absolute top-0 left-0 right-0 h-16">
-        <div className="bg-gray-800 shadow-lg rounded-b-2xl hover:translate-y-10 transition  duration-300">
+      <nav class="bg-gray-800 shadow-lg rounded-b-2xl relative top-0 left-0 right-0 h-16">
+        <div className="bg-gray-800 shadow-lg rounded-b-2xl hover:translate-y-6 transition  duration-300">
           <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
               <div class="flex space-x-7">

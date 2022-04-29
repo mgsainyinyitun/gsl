@@ -3,13 +3,41 @@
 @tailwind utilities;
 
 .background-image{
-    background-image: url('../public/images/cover.jpg');
+    background-image: url('./images/cover.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 800px;
 }
+
+.img-partner-cover{
+    background-image: url('./images/partner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+.img-company-cover{
+    background-image: url('./images/company.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+.perfect-circle {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 
 
 .color-green{
@@ -28,18 +56,27 @@
     background: #B4CF66;
 }
 
-.color-text-green{
-    color: #44803F;
-}
-.color-text-blue{
-    color: #146152;
-}
-.color-text-red{
-    color: #FF5A33;
-}
-.color-text-yellow{
-    color: #FFEC5C;
-}
-.color-text-light-green{
-    color: #B4CF66;
-}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   /* background: #f1f1f1; */
+    background:#1F2937;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }

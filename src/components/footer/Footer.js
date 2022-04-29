@@ -9,7 +9,7 @@ class Footer extends React.Component{
 
     render(){
         return(
-            <footer className="w-ful bg-gray-900 mt-20 rounded-t-3xl ">
+            <footer className="w-ful bg-gray-900 rounded-t-3xl ">
                 <div className="bg-gray-900 rounded-t-3xl hover:-translate-y-10 transition delay-100 duration-300">
                     <div className="flex  justify-around text-white mt-16">
                         <div className="mt-16">

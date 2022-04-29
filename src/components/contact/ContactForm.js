@@ -7,7 +7,7 @@ class ContactForm extends React.Component{
     render(){
         return(
             <>
-            <div className='w-full p-2 m-5 bg-gray-800 '>
+            <div className='w-full p-2 mb-5 mt-5 bg-gray-800 '>
                 <span className='text-3xl uppercase text-white font-extrabold'>contact Us</span>
             </div>
 
@@ -17,13 +17,13 @@ class ContactForm extends React.Component{
                     <h1 className='text-3xl uppercase text-white'>Contact Form</h1>
                     <form>
                         <div>
-                            <input className='hover:bg-gray-800 bg-gray-700 border-2 h-10 w-full rounded-3xl border-gray-700 m-1' type={'text'} />
+                            <input className='hover:bg-gray-800 bg-gray-700 border-2 h-10 w-full rounded-lg border-gray-700 m-1' type={'text'} />
                         </div>
                         <div>
-                            <input className='hover:bg-gray-800 bg-gray-700 border-2 h-10 w-full rounded-3xl border-gray-700 m-1' type={'text'} />
+                            <input className='hover:bg-gray-800 bg-gray-700 border-2 h-10 w-full rounded-lg border-gray-700 m-1' type={'text'} />
                         </div>
                         <div>
-                        <textarea className='hover:bg-gray-800 bg-gray-700 border-2 h-36 w-full rounded-3xl border-gray-700 m-1'>
+                        <textarea className='hover:bg-gray-800 bg-gray-700 border-2 h-36 w-full rounded-lg border-gray-700 m-1'>
                                 
                         </textarea>
                         </div>

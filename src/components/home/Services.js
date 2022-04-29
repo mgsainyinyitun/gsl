@@ -18,7 +18,7 @@ class Services extends React.Component{
     render(){
         return(
           <div className='w-full flex flex-col items-center'>
-             <div className='w-full p-2 m-5 bg-gray-800 '>
+             <div className='w-full p-2 mb-5 bg-gray-800 '>
                 <span className='text-3xl uppercase text-white font-extrabold'>services</span>
             </div>
             <div className='w-4/6'>

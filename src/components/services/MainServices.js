@@ -1,12 +1,21 @@
 import React from "react";
+import ProjectsList from "./ProjectsList";
+import ServicesHeading from "./ServicesHeading";
+import ServicesList from "./ServicesList";
+
+
 
 class MainServices extends React.Component{
 
     render(){
         return(
-        <div className="border-2 h-48 mt-20">
-            Main Services
-        </div>)
+        <div className="mt-10 flex flex-col items-center">
+            <ServicesHeading/>
+            <ServicesList/>
+            <ProjectsList/>
+        </div>
+        
+        )
     }
 }
 
