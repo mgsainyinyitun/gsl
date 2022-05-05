@@ -4,8 +4,10 @@ import React from "react";
 class Card extends React.Component{
     render(){
         return(
-            <div className='group border-2 mb-2 border-gray-900 rounded-3xl p-3 flex'>
+            <div className='group border-2 mb-2 border-gray-900 rounded-3xl p-3 flex sm:flex-row flex-col'>
+
                 <FontAwesomeIcon icon={this.props.icon} className='text-white text-8xl mr-5'/>
+
                 <div className="flex flex-col">
                     <h3 className='text-white text-2xl'>{this.props.title}</h3>
                     <p>{this.props.info}</p>
@@ -14,6 +16,7 @@ class Card extends React.Component{
                         {this.props.detail || ''}
                     </div>
                 </div>
+
             </div>
         )
     }

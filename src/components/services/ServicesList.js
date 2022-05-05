@@ -8,7 +8,7 @@ class ServicesList extends React.Component{
 
     render(){
         return(
-            <div className="w-4/6">
+            <div className="md:w-4/6 m-5">
             <h1 className="uppercase text-5xl text-white border-b-4 border-lime-900 mt-10 pb-3">services</h1>
             <ServicesContainer 
                 image ={CCTV}

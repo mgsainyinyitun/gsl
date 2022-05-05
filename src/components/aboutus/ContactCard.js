@@ -8,7 +8,7 @@ class ContactCard extends React.Component{
 
     render(){
         return(
-            <div className=" p-5 rounded-lg bg-gray-900 w-3/6">
+            <div className=" p-5 rounded-lg bg-gray-900 md:w-3/6 w-full m-5">
                 <div className="m-3">
                    <FontAwesomeIcon icon={faHome }  className='text-white text-3xl mr-3' /> 
                    <span className="text-white text-lg">Mandalay, Myanmar , NA XX XX XX XX </span>

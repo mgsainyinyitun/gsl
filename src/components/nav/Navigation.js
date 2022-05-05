@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import React,{useState} from "react";
 import { ROUTES } from '../../constants/routes/RoutesConstant';
 import {useLocation} from 'react-router-dom';
+import LOGO from '../../images/icon.ico';
 
 function displayMobileMenu(display,setDisplay){
   if(display==='hidden'){setDisplay('block')}else setDisplay('hidden');
@@ -25,8 +26,9 @@ function Navigation() {
 
                   <div>
                     <a href="#" className="flex items-center py-4 px-2">
-                    <FontAwesomeIcon icon={faGlobeAmericas} className='text-5xl'/>
+                    <img src = {LOGO} className='w-14'/>
                     </a>
+                    
                   </div>
 
                   {/* Primary Menu */}
@@ -55,11 +57,6 @@ function Navigation() {
                   </div>
                   </div>
 
-                  {/* Secondary Navbar items  */} 
-                  <div className="hidden md:flex items-center space-x-3 ">
-                    <a href="" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log In</a>
-                    <a href="" className="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</a>
-                  </div>
 
                   {/* Mobile menu button  */} 
                   <div className="md:hidden flex items-center">
@@ -67,9 +64,9 @@ function Navigation() {
                     <svg className=" w-6 h-6 text-gray-500 hover:text-green-500 "
                       x-show="!showMenu"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >

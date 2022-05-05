@@ -11,8 +11,8 @@ class AboutUs extends React.Component{
             <div className="w-full">
                 <AboutCover/>
                 
-                 <div className="flex flex-col w-full items-center mt-36">
-                     <div className="w-3/6">
+                 <div className="flex flex-col w-full items-center mt-36 p-5">
+                     <div className=" md:w-3/6 w-full">
                          <div className="flex justify-center">
                             <h1 className="text-5xl text-white border-b-4 border-b-green-700">our vision
                             </h1>
@@ -22,8 +22,8 @@ class AboutUs extends React.Component{
                  </div>
 
 
-                 <div className="flex flex-col w-full items-center">
-                     <div className="w-3/6">
+                 <div className="flex flex-col w-full items-center p-5">
+                     <div className="md:w-3/6 w-full">
                          <div className="flex justify-center">
                             <h1 className="text-5xl text-white border-b-4 border-b-green-700">about us
                             </h1>
@@ -40,10 +40,8 @@ class AboutUs extends React.Component{
                 </div>
 
                 <div className="flex justify-center mt-36">
-                    <div className="w-3/6 bg-gray-900 h-96 rounded-xl">
-
+                    <div className="md:w-3/6 w-full m-5 bg-gray-900 h-96 rounded-xl">
                     </div>
-
                 </div>
                 
             </div>

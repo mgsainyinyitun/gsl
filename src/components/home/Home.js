@@ -10,7 +10,7 @@ class Home extends React.Component{
             <>
                 <Cover/>
                 <div className="flex justify-center text-white m-0 p-0">
-                    <div className="w-3/6">
+                    <div className="border-2 border-red-900 w-full md:w-4/6">
                         <Customer/>
                         <Services/>
                         <ContactForm />

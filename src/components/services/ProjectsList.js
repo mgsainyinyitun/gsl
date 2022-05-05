@@ -7,10 +7,10 @@ class ProjectsList extends React.Component{
     
     render(){
         return(
-            <div className="w-4/6">
+            <div className="md:w-4/6 m-5">
             <h1 className="uppercase text-5xl text-white border-b-4 border-lime-900 mt-10 pb-3">projects</h1>
             
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
                 <ProjectsContainer 
                     image ={CCTV}
                     title ="Ea ut mollit deserunt aliquip officia minim ea cillum."
