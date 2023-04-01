@@ -44,6 +44,10 @@ function Navigation() {
                       SERVICES
                     </Link>
 
+                    <Link to={ROUTES.PRODUCTS} 
+                    className={`hover:text-red-800  py-4 px-2 text-white font-semibold ${location===ROUTES.PRODUCTS?' text-red-800':""}` }>
+                      PRODUCTS
+                    </Link>
 
                     <Link to={ROUTES.PARTNER} 
                     className={`hover:text-red-800  py-4 px-2 text-white font-semibold ${location===ROUTES.PARTNER?' text-red-800':""}` }>

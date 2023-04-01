@@ -3,4 +3,5 @@ export const ROUTES = {
     SERVICES:"/services",
     PARTNER:"/partner",
     ABOUTUS:"/aboutus",
+    PRODUCTS:"/product",
 }

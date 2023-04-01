@@ -1,0 +1,4 @@
+1. Add you constant in (RoutesConstant.js)
+2. Add Link in (Navigation.js)
+3. Create own jsx file (e.g Products.jsx)
+4. Add component inn App.js

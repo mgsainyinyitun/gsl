@@ -7,6 +7,8 @@ import MainServices from "./components/services/MainServices";
 import Partner from "./components/partner/Partner";
 import AboutUs from "./components/aboutus/AboutUs";
 import { ROUTES } from "./constants/routes/RoutesConstant";
+import Products from "./components/products/Products";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path={ROUTES.SERVICES} element={<MainServices/>} />
           <Route path={ROUTES.PARTNER} element={<Partner/>} />
           <Route path={ROUTES.ABOUTUS} element={<AboutUs/>} />
+          <Route path={ROUTES.PRODUCTS} element={<Products/>} />
       </Routes>
     </div>
     <Footer/>
